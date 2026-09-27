@@ -1,0 +1,182 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white;
+  border-bottom: 2px solid;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  gap: 10px;
+}
+
+nav a {
+  color: grey;
+  text-decoration: none;
+  position: relative;
+}
+
+section {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+section h2 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+section p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 0 auto 30px;
+}
+
+.button1 {
+  background-color: rgb(136, 136, 240);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button2 {
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button-hero {
+  text-decoration: none;
+  background-color: rgb(56, 151, 219);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 30px 10px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#inicio {
+  position: relative;
+  min-height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 60px 20px;
+}
+
+.fondo-hero {
+  color: white;
+  position: absolute;
+  inset: 0;
+  background-image: url(img/Tokio\ white\ black.jpeg);
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+}
+
+.contenido-inicio {
+  max-width: 800px;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+.contenido-inicio h1 {
+  font-size: 54px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+
+
+
+
+article {
+  background-color: white;
+  border-radius: 10px 10px 10px;
+}
+
+article button {
+  background-color: rgb(45, 210, 33);
+  border: none;
+  border-radius: 10px 10px 10px;
+  cursor: pointer;
+  padding: 10px 10px 10px;
+}
+
+.contenedor-content {
+  border-radius: 20px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 20px; 
+  background-color: rgb(230, 221, 221);
+  padding: 20px;
+  
+}
+
+.carrusel {
+  overflow-x: auto;
+}
+
+.contenedor-content article img {
+  border-radius: 10px;
+  width: 200px; 
+  height: 150px; 
+  object-fit: cover;
+}
+
+.servicios {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+  font-size: 0.9rem;
+}
+
+th {
+  background: #f5f5f5;
+  font-weight: 600;
+}
+
+
+.footer {
+  background: #2b2b3d;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
